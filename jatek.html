@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<title>Mastermind</title>
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="jatek" style="display:none">
+    <img id="0" src="images/kerdojel.jpg" style="display: none;">
+	<img id="1" src="images/kutya1.png" style="display: none;">
+	<img id="2" src="images/lepke1.png"style="display: none;" >
+	<img id="3" src="images/maci1.png" style="display: none;">
+	<img id="4" src="images/macska1.png"style="display: none;">
+	<img id="5" src="images/madar1.png" style="display: none;">
+	<img id="6" src="images/majom1.png" style="display: none;">
+    <canvas id="tabla" style="z-index:1"></canvas>
+	</div>
+	
+	
+</body>
+<script src="script.js"></script>
+<script>
+function startsajat(){
+	setGame(5,true,true);
+	init();
+}
+startsajat();
+</script>
+</html>
